@@ -43,7 +43,7 @@ namespace NADT.Services
 
             var text = $@"
                     <speak version='1.0' xmlns=""http://www.w3.org/2001/10/synthesis"" xml:lang='en-US'>
-                        <voice  name='Microsoft Server Speech Text to Speech Voice (en-GB, Susan, Apollo)'>
+                        <voice  name='en-US-AriaNeural'>
                         You had a text message from {from}
                             <break time = ""100ms"" /> The message was
                             <break time=""100ms""/> {body}
